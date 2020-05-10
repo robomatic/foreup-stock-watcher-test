@@ -1,0 +1,23 @@
+// @import "../../node_modules/bootstrap/scss/_variables.scss";
+@import "custom";
+@import "icons";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+html,
+body,
+#app {
+  height: 100%;
+  letter-spacing: 1px;
+}
+
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.search-control {
+  text-transform: uppercase;
+}
+.search-control::placeholder {
+  text-transform: none;
+}

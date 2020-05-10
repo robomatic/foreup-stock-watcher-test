@@ -1,0 +1,29 @@
+$ui-icon-sizes:  "xl" 64px, "lg" 48px, "md" 32px, "sm" 24px, "xs" 16px;
+$ui-icons:
+  "back",
+  "fastfood",
+  "game-pad",
+  "gear",
+  "icecream",
+  "minus-circle",
+  "mobile-screen-h",
+  "plus-circle",
+  "swing",
+  "ticket",
+  "toy-fan",
+  "trophy";
+
+@each $size, $px in $ui-icon-sizes {
+  .icon-#{$size} {
+    width: $px !important;
+    height: $px !important;
+  }
+}
+
+// @each $icon in $ui-icons {
+//   .icon-#{$icon} {
+//     background-image: url("../static/images/icon-#{$icon}.svg");
+//     width: 32px;
+//     height: 32px;
+//   }
+// }

@@ -1,0 +1,38 @@
+
+$font-family-base: 'Open Sans', sans-serif;
+$color-base: #3E5769;
+$headings-font-weight: 700;
+$headings-color: #3E5769;
+$enable-responsive-font-sizes: true;
+$font-size-base: 2.12rem;
+
+$blue: #284CC9;
+$green: #299E00;
+$green-light: #6AF531;
+$green-dark: #00A333;
+$red: #BB0606;
+$red-light: #EB5631;
+$red-dark: #901700;
+
+$btn-bt: #284CC9;
+$caption-color: #919AA0;
+
+$input-btn-padding-y: 1rem;
+$input-btn-padding-x: 1.5rem;
+
+$btn-padding-x: 2.9rem;
+$btn-font-size: 1.2rem;
+$btn-font-weight: 700;
+$btn-line-height: 2.25;
+$btn-border-radius: 4px;
+
+$input-font-size: 1.7rem;
+$input-bg: #FBFBFB;
+
+:root {
+  --green-light: #{$green-light};
+  --green-dark: #{$green-dark};
+  --red-light: #{$red-light};
+  --red-dark: #{$red-dark};
+}
+

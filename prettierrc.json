@@ -1,0 +1,19 @@
+{
+  "arrowParens": "always",
+  "printWidth": 100,
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "plugins": ["svelte"],
+  "endOfLine": "auto",
+  "svelteSortOrder": "scripts-markup-styles",
+  "overrides": [
+    {
+      "files": "*.svelte",
+      "options": {
+        "parser": "html"
+      }
+    }
+  ]
+}

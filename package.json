@@ -1,0 +1,30 @@
+{
+  "name": "stock-watcher-svelte",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "dev": "parcel -p 4404 src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "browserslist": [
+    "since 2017-06"
+  ],
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "^4.4.1",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-svelte3": "^2.7.3",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.3.1",
+    "parcel-plugin-svelte": "^4.0.6",
+    "prettier": "^2.0.2",
+    "prettier-plugin-svelte": "^0.7.0",
+    "sass": "^1.26.3",
+    "svelte": "3.x",
+    "svelte-preprocess": "^3.7.4"
+  }
+}
